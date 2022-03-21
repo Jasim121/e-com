@@ -1,0 +1,25 @@
+@import '../scss/color';
+@mixin heading{
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14.5rem;
+}
+@mixin button{
+    text-decoration: none;
+    background: $main_col;
+    color: $primary_col;
+    font-weight: bold;
+    padding: 2.2rem 4.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+}
+@mixin subhead {
+    color: $textpara_col;
+    font-size: 1.4rem;
+}
+@mixin headingsm {
+    color: $sec_col;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
